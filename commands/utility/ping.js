@@ -1,7 +1,7 @@
-/* eslint-disable indent */
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
+	cooldown: 5,
 	data: new SlashCommandBuilder()
 		.setName('ping')
 		.setDescription('Replies with Pong!'),
@@ -9,5 +9,3 @@ module.exports = {
 		await interaction.reply('Pong!');
 	},
 };
-
-console.log('Command was run');
