@@ -1,2 +1,2 @@
 # Discord_Bot
-Custom Discord Bot created with MCscoko
+Custom JavaScript Discord Bot created with MCscoko
